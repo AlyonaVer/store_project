@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+/* Product Cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
