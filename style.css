@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+/* Header */
+.cart-image {
+    text-align: right;
+}
+
+/* Navigation bar */
+.navbar-row {
+    list-style-type: none;
+    padding: 10;
+}
+
 h1 {
     text-align: center;
 }
@@ -33,7 +44,7 @@ h1 {
     height: auto;
 }
 
-.product-row {
+.product-row, .navbar-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
