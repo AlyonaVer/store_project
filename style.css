@@ -11,6 +11,16 @@ body {
 }
 
 /* Header */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+}
+
+.top-header span {
+    font-size: 25px;
+}
 
 /* Navigation bar */
 .navbar-row {
@@ -93,6 +103,9 @@ footer {
 
 /* Media Query */
 @media only screen and (max-width: 1200px) {
+    .top-header {
+        padding: 3% 6%;
+    }
     .product-container {
         margin: 100px;
     }
