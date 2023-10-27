@@ -43,6 +43,10 @@ __Tracey Ngo__
 
 ## Features
 
+## Trello Board
+This screenshot showcases our project's Trello board, which we use to manage tasks, track progress, and collaborate in our web development project.
+
+<img src="./images/trello_board.png" alt="trello board" width="800" height="auto">
 
 ## Tools & Resources
 We used a variety of tools and resources to collaborate, such as:
