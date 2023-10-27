@@ -5,27 +5,40 @@
 This project was created for the Web Development program at Generation Australia, to demonstrate students' technical skills (HTML & CSS) and Behavioural Skills and Mindsets (communication, team work, time management, collaboration, etc.).
 
 
-### Authors:
+## Authors:
 __Bradley Richards__
-* [GitHub](https://github.com/Frogdust "Bradley's GitHub")
-* [LinkedIn] ( "Bradley's LinkedIn")
-* <>
+[GitHub](https://github.com/Frogdust "Bradley's GitHub") / <bradleyrossrichards@gmail.com>
 
 __Gem Phan__
-* [GitHub](https://github.com/RainInApril "Gem's GitHub")
-* [LinkedIn](https://www.linkedin.com/in/chau-bao-nguyen-phan/ "Gem's LinkedIn")
-* <chaubnphan@gmail.com>
+[GitHub](https://github.com/RainInApril "Gem's GitHub") / [LinkedIn](https://www.linkedin.com/in/chau-bao-nguyen-phan/ "Gem's LinkedIn") / <chaubnphan@gmail.com>
 
 __Tracey Ngo__
-* [GitHub](https://github.com/NTracey "Tracey's GitHub")
-* [LinkedIn](https://www.linkedin.com/in/tracey-ngo/ "Tracey's LinkedIn")
-* <traceyngo4@gmail.com>
+[GitHub](https://github.com/NTracey "Tracey's GitHub") / [LinkedIn](https://www.linkedin.com/in/tracey-ngo/ "Tracey's LinkedIn") / <traceyngo4@gmail.com>
 
-Our instructor/mentor - __Elias Matta__
+#### Our instructor/mentor - __Elias Matta__
 
 
 ## Our Store's Wireframe
-![Store's Wireframe](./images/store_wireframe.png)
+
+### The store's initial wireframe:
+
+<img src="./images/store_wireframe.png" alt="The store's initial wireframe" width="500" height="auto">
+
+### More detailed wireframes for home page:
+
+#### Web's view
+<img src="./images/homepage_web.png" alt="Home page on web's view" width="500" height="auto">
+
+#### Mobile's view
+<img src="./images/homepage_mobile.png" alt="Home page on mobile's view" width="200" height="auto">
+
+### More detailed wireframes for shopping cart page:
+
+#### Web's view
+<img src="./images/cart_web.png" alt="Shopping cart page on web's view" width="500" height="auto">
+
+#### Mobile's view
+<img src="./images/cart_mobile.png" alt="Shopping cart page on mobile's view" width="200" height="auto">
 
 
 ## Features
@@ -40,4 +53,3 @@ We used a variety of tools and resources to collaborate, such as:
 * Live Share (Visual Studio Code's extension)
 * draw.io
 * Figma
-
