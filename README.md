@@ -22,23 +22,23 @@ __Tracey Ngo__
 
 ### The store's initial wireframe:
 
-<img src="./images/store_wireframe.png" alt="The store's initial wireframe" width="500" height="auto">
+<img src="./images/store_wireframe.png" alt="The store's initial wireframe" width="800" height="auto">
 
 ### More detailed wireframes for home page:
 
 #### Web's view
-<img src="./images/homepage_web.png" alt="Home page on web's view" width="500" height="auto">
+<img src="./images/homepage_web.png" alt="Home page on web's view" width="800" height="auto">
 
 #### Mobile's view
-<img src="./images/homepage_mobile.png" alt="Home page on mobile's view" width="200" height="auto">
+<img src="./images/homepage_mobile.png" alt="Home page on mobile's view" width="300" height="auto">
 
 ### More detailed wireframes for shopping cart page:
 
 #### Web's view
-<img src="./images/cart_web.png" alt="Shopping cart page on web's view" width="500" height="auto">
+<img src="./images/cart_web.png" alt="Shopping cart page on web's view" width="800" height="auto">
 
 #### Mobile's view
-<img src="./images/cart_mobile.png" alt="Shopping cart page on mobile's view" width="200" height="auto">
+<img src="./images/cart_mobile.png" alt="Shopping cart page on mobile's view" width="300" height="auto">
 
 
 ## Features
