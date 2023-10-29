@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Paytone One', 'Agbalumo', Arial, sans-serif;
+    color: rgb(80, 80, 150);
 }
+
 
 body {
     min-height: 100vh;
@@ -13,6 +16,19 @@ body {
 h1,
 h2 {
     text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    
+}
+
+.banner h1 {
+    font-family: 'Agbalumo', 'Paytone One',  Arial, sans-serif;
 }
 
 /* Header */
