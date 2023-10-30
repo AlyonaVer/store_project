@@ -48,50 +48,113 @@
         <h1>Your Pet's Paradise</h1>
     </div>
       <h1>Your Cart</h1>
-      <!-- 
-    ○ Minimum 3 items
-      <img src="./images/cat_tree.webp" alt="cat tree">
-      <img src="./images/cat_food.webp" alt="cat food">
-      <img src="./images/dog_treat.webp" alt="dog treat">
-    ○ Each item will have a remove from cart button
-    ○ Cart total price -->
-    <section class="product-container">
-      <div class="card">
-        <img src="images/cat_tree.webp" alt="Cat scratching tree" />
-        <div class="product-row">
-          <h3>Cat Tree</h3>
-          <p>$100</p>
-        </div>
-        <button class="product-button">Remove from Cart</button>
-      </div>
-      <div class="card">
-        <img src="images/cat_food.webp" alt="Ziwi Peak air-dried cat food" />
-        <div class="product-row">
-          <h3>Cat Food</h3>
-          <p>$1.50</p>
-        </div>
-        <button class="product-button">Remove from Cart</button>
-      </div>
-      <div class="card">
-        <img src="images/dog_lead.webp" alt="Dog lead" />
-        <div class="product-row">
-          <h3>Dog Lead</h3>
-          <p>$10</p>
-        </div>
-        <button class="product-button">Remove from Cart</button>
-      </div>
 
-     
+<section class="cart-section">
+  <div class="image-container">
+      <img class="cart-img" src="images/cat_tree.webp" alt="Cat scratching tree">
+  </div>
+  <div class="cart-container">
+      <div class="cart">
+          <div class="cart-left">
+            <h3>Cat Tree</h3>
+          </div>
+          <div class="cart-right">
+            <button class="cart-button">
+              <img
+                  src="./images/bin.png" 
+                  alt="logo"
+                  width="20"
+                  height="20">
+            </button>
+          </div>
+      </div>
+      <div class="cart">
+          <div class="cart-left">
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" value="1">
+          </div>
+          <div class="content-right">
+            <p>$100.00</p>
+          </div>
+      </div>
+  </div>
+  
+</section>
+<section class="cart-section">
+  <div class="image-container">
+      <img class="cart-img" src="images/cat_food.webp" alt="Ziwi Peak air-dried cat food">
+  </div>
+  <div class="cart-container">
+      <div class="cart">
+          <div class="cart-left">
+            <h3>Cat Food</h3>
+          </div>
+          <div class="cart-right">
+            <button class="cart-button">
+              <img
+                  src="./images/bin.png" 
+                  alt="logo"
+                  width="20"
+                  height="20">
+            </button>
+          </div>
+      </div>
+      <div class="cart">
+          <div class="cart-left">
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" value="2">
+          </div>
+          <div class="content-right">
+            <p>$1.50</p>
+          </div>
+      </div>
+  </div>
+  
+</section><section class="cart-section">
+  <div class="image-container">
+      <img class="cart-img" src="images/dog_lead.webp" alt="Dog lead">
+  </div>
+  <div class="cart-container">
+      <div class="cart">
+          <div class="cart-left">
+            <h3>Dog Lead</h3>
+          </div>
+          <div class="cart-right">
+            <button class="cart-button">
+              <img
+                  src="./images/bin.png" 
+                  alt="logo"
+                  width="20"
+                  height="20">
+            </button>
+          </div>
+      </div>
+      <div class="cart">
+          <div class="cart-left">
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" value="2">
+          </div>
+          <div class="content-right">
+            <p>$10.00</p>
+          </div>
+      </div>
+  </div>
+  
+</section>
 
-    </section>
-    <div class="cart-cost">
+  <br>
+
+  <div class="cart-cost">
+    <div class="cost-paragraphs">
       <p>Cart Price</p>
-      <p>$111.50</p>
+      <p>$223.00</p>
     </div>
+    <button class="product-button">Checkout</button>
+  </div>
+  <br>
+
     </main>
     <!-- Footer -->
     <footer>
       <p>© 2023 Whiskers & Wag</p>
     </footer>
+    
   </body>
 </html>
