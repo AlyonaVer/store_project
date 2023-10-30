@@ -178,10 +178,6 @@ footer {
     align-items: center;
 }
 
-.cat-image img, .dog-image img {
-    max-width: 100%;
-    height: auto;
-}
 .cart-button-container {
     text-align: center;
 }
