@@ -1,21 +1,16 @@
+/* Colour pallate
+    background-color: rgb(188, 229, 249); pastel blue
+    background-color: rgb(177, 218, 126); pastel green
+    background-color: rgb(216, 208, 127); pastel brown
+    background-color: rgb(100%, 86%, 25%); bright yellow
+    */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Paytone One', 'Agbalumo', Arial, sans-serif;
     color: rgb(80, 80, 150);
-    
-
-    /* Colour pallate
-    
-    background-color: rgb(188, 229, 249); pastel blue
-    background-color: rgb(177, 218, 126); pastel green
-    background-color: rgb(216, 208, 127); pastel brown
-    
-    */
-    
 }
-
 
 body {
     min-height: 100vh;
@@ -24,29 +19,18 @@ body {
 }
 
 header {
-    background-color: rgba(188, 229, 249, 1);
+    background-color: rgb(100%, 86%, 25%);
 }
 
-.banner {
-    background-color: rgba(188, 229, 249, 1);
-}
-
-h1,
-h2 {
+h1, h2 {
     text-align: center;
     font-size: 40px;
     letter-spacing: 2px;
 }
 
 h3 {
-    
     font-weight: 100;
     letter-spacing: 0.5px;
-    
-}
-
-.banner h1 {
-    font-family: 'Agbalumo', 'Paytone One',  Arial, sans-serif;
 }
 
 /* Header */
@@ -55,6 +39,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 1% 10% 0 10%;
+    background-color: rgb(100%, 86%, 25%);
 }
 
 .top-header span {
@@ -72,7 +57,7 @@ h3 {
 }
 
 .navbar-row li a:hover {
-    color: blue;
+    color: lightyellow;
 }
 
 /* Main */
@@ -86,10 +71,14 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(216, 208, 127);
 }
 
-h2 {
-    margin: 2%
+.banner h1 {
+    font-family: 'Agbalumo', 'Paytone One',  Arial, sans-serif;
+    text-transform: uppercase;
+    /*margin-bottom: 20%;*/
+    text-shadow: 3px 3px 3px white;
 }
 
 /* Product Cards */
@@ -98,9 +87,8 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 13%;
-    background-color: rgba(177, 218, 126, 0.7);
+    /*background-color: rgba(177, 218, 126, 0.7);*/
     border-radius: 20px;
-    
 }
 
 .card {
@@ -109,6 +97,8 @@ h2 {
     margin: 10px auto;
     padding: 10px;
     text-align: center;
+    border-radius: 20px;
+    background-color: rgba(177, 218, 126, 0.7);
 }
 
 .card h2 {
@@ -118,6 +108,7 @@ h2 {
 .card img {
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 .product-row, .navbar-row {
@@ -132,7 +123,7 @@ h2 {
     box-shadow: inset 0px -3px 7px 0px #29bbff;
     background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
     background-color: #2dabf9;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid #0b0e07;
     display: inline-block;
     cursor: pointer;
@@ -162,7 +153,7 @@ footer {
     background-color: #f1f1f1;
     text-align: center;
     padding: 20px;
-    background-color: rgba(216, 208, 127, 1);
+    background-color: rgb(100%, 86%, 25%);
 }
 
 /* Media Query */
@@ -179,6 +170,9 @@ footer {
 }
 
 @media only screen and (max-width: 650px) {
+    .banner h1, h2 {
+        font-size: larger;
+    }
     .card {
         width: 45%;
     }
