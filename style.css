@@ -46,6 +46,10 @@ h3 {
     background-color: rgb(100%, 86%, 25%);
 }
 
+.logo {
+    /*try to centre text height with image*/
+}
+
 .top-header span {
     font-size: 25px;
 }
@@ -150,6 +154,13 @@ h3 {
     top: 1px;
 }
 
+.cart-cost {
+    padding-right: 15%;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+
 /* Footer */
 footer {
     margin-top: auto;
@@ -174,6 +185,11 @@ footer {
 }
 
 @media only screen and (max-width: 650px) {
+    .logo img {
+        width: 80px;
+        height: auto;
+    }
+
     .banner h1, h2 {
         font-size: larger;
     }
@@ -183,3 +199,9 @@ footer {
 }
 
 /* Cart */
+
+.cat-image, .dog-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
