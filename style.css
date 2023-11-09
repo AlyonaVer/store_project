@@ -1,9 +1,10 @@
-/* Colour pallate
-    background-color: rgb(188, 229, 249); pastel blue
-    background-color: rgb(177, 218, 126); pastel green
-    background-color: rgb(216, 208, 127); pastel brown
-    background-color: rgb(100%, 86%, 25%); bright yellow
-    */
+:root {
+    --yellow-color: rgb(100%, 86%, 25%);
+    --green-color: rgba(177, 218, 126, 0.7);
+    --blue-color: #0688fa;
+    --light-blue-color: #2dabf9;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@ body {
 }
 
 header {
-    background-color: rgb(100%, 86%, 25%);
+    background-color: var(--yellow-color);
 }
 
 h1, h2 {
@@ -43,7 +44,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 1% 10% 0 10%;
-    background-color: rgb(100%, 86%, 25%);
+    background-color: var(--yellow-color);
 }
 
 .top-header span {
@@ -85,23 +86,21 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(100%, 86%, 25%);
+    background-color: var(--yellow-color);
 }
 
 .banner h1 {
     font-family: 'Agbalumo', 'Paytone One',  Arial, sans-serif;
     text-transform: uppercase;
-    /*margin-bottom: 20%;*/
     text-shadow: 3px 3px 3px white;
 }
 
-/* Product Cards */
+/* Product Page */
 .product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 13%;
-    /*background-color: rgba(177, 218, 126, 0.7);*/
     border-radius: 20px;
 }
 
@@ -112,7 +111,7 @@ h3 {
     padding: 10px;
     text-align: center;
     border-radius: 20px;
-    background-color: rgba(177, 218, 126, 0.7);
+    background-color: var(--green-color);
 }
 
 .card h2 {
@@ -135,8 +134,8 @@ h3 {
 
 .product-button {
     box-shadow: inset 0px -3px 7px 0px #29bbff;
-    background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
-    background-color: #2dabf9;
+    background: linear-gradient(to bottom, var(--light-blue-color) 5%, var(--blue-color) 100%);
+    background-color: var(--light-blue-color);
     border-radius: 15px;
     border: 1px solid #0b0e07;
     display: inline-block;
@@ -151,8 +150,8 @@ h3 {
 }
 
 .product-button:hover {
-    background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
-    background-color: #0688fa;
+    background: linear-gradient(to bottom, var(--blue-color) 5%, var(--light-blue-color) 100%);
+    background-color: var(--blue-color);
 }
 
 .product-button:active {
@@ -160,6 +159,7 @@ h3 {
     top: 1px;
 }
 
+/* Cat and Dog page */
 .cat-image,
 .dog-image {
     display: flex;
@@ -167,30 +167,21 @@ h3 {
     align-items: center;
 }
 
-
-/* Footer */
-footer {
-    margin-top: auto;
-    width: 100%;
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(100%, 86%, 25%);
-}
-
-.cat-image img, .dog-image img {
+.cat-image img,
+.dog-image img {
     max-width: 100%;
     height: auto;
 }
 
+/* Cart Page */
 .cart-button-container {
     text-align: center;
 }
 
 .cart-button {
     box-shadow: inset 0px -3px 7px 0px #29bbff;
-    background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
-    background-color: #2dabf9;
+    background: linear-gradient(to bottom, var(--light-blue-color) 5%, var(--blue-color) 100%);
+    background-color: var(--light-blue-color);
     border-radius: 15px;
     border: 1px solid #0b0e07;
     display: inline-block;
@@ -202,8 +193,8 @@ footer {
 }
 
 .cart-button:hover {
-    background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
-    background-color: #0688fa;
+    background: linear-gradient(to bottom, var(--blue-color) 5%, var(--light-blue-color) 100%);
+    background-color: var(--blue-color);
 }
 
 .cart-button:active {
@@ -220,7 +211,7 @@ footer {
     align-items: center;
     padding: 20px;
     margin: 0 13%;
-    background-color: rgba(177, 218, 126, 0.7);
+    background-color: var(--green-color);
     border-radius: 20px;
 }
 
@@ -239,17 +230,18 @@ footer {
     flex-direction: column;
     flex: 2;
     margin-left: 20px;
-    
+
 }
 
 .cart {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-    
+
 }
 
-.cart-left, .cart-right {
+.cart-left,
+.cart-right {
     flex: 1;
 }
 
@@ -263,7 +255,7 @@ footer {
     align-items: center;
     text-align: center;
     margin: 0 13%;
-    background-color: rgba(177, 218, 126, 0.7);
+    background-color: var(--green-color);
     border-radius: 20px;
 }
 
@@ -280,14 +272,26 @@ footer {
     max-width: 400px;
 }
 
+/* Footer */
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--yellow-color);
+}
+
 /* Media Query */
 @media only screen and (max-width: 1200px) {
     .top-header {
         padding: 3% 6%;
     }
+
     .product-container, h2 {
         margin: 2% 1%;
     }
+
     .card {
         width: 30%;
     }
@@ -308,8 +312,6 @@ footer {
         width: 45%;
     }
 
-
-
     .cart-img {
         max-height: 120px;
         max-width: 120px;
@@ -318,15 +320,8 @@ footer {
 }
 
 @media only screen and (max-width: 390px) {
-
-
     .cart-img {
         max-height: 100px;
         max-width: 100px;
-    }
-
-    
+    }    
 }
-
-
-
