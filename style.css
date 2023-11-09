@@ -1,8 +1,9 @@
 :root {
-    --yellow-color: rgb(100%, 86%, 25%);
-    --green-color: rgba(177, 218, 126, 0.7);
-    --blue-color: #0688fa;
-    --light-blue-color: #2dabf9;
+    --yellow: rgb(100%, 86%, 25%);
+    --green: rgba(177, 218, 126, 0.7);
+    --blue: #0688fa;
+    --light-blue: #2dabf9;
+    --semi-transparent-black: rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -20,7 +21,7 @@ body {
 }
 
 header {
-    background-color: var(--yellow-color);
+    background-color: var(--yellow);
 }
 
 h1, h2 {
@@ -44,7 +45,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 1% 10% 0 10%;
-    background-color: var(--yellow-color);
+    background-color: var(--yellow);
 }
 
 .top-header span {
@@ -86,7 +87,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--yellow-color);
+    background-color: var(--yellow);
 }
 
 .banner h1 {
@@ -105,13 +106,13 @@ h3 {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 var(--semi-transparent-black);
     width: 18%;
     margin: 10px auto;
     padding: 10px;
     text-align: center;
     border-radius: 20px;
-    background-color: var(--green-color);
+    background-color: var(--green);
 }
 
 .card h2 {
@@ -134,10 +135,10 @@ h3 {
 
 .product-button {
     box-shadow: inset 0px -3px 7px 0px #29bbff;
-    background: linear-gradient(to bottom, var(--light-blue-color) 5%, var(--blue-color) 100%);
-    background-color: var(--light-blue-color);
+    background: linear-gradient(to bottom, var(--light-blue) 5%, var(--blue) 100%);
+    background-color: var(--light-blue);
     border-radius: 15px;
-    border: 1px solid #0b0e07;
+    border: 1px solid var(--semi-transparent-black);
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
@@ -150,8 +151,8 @@ h3 {
 }
 
 .product-button:hover {
-    background: linear-gradient(to bottom, var(--blue-color) 5%, var(--light-blue-color) 100%);
-    background-color: var(--blue-color);
+    background: linear-gradient(to bottom, var(--blue) 5%, var(--light-blue) 100%);
+    background-color: var(--blue);
 }
 
 .product-button:active {
@@ -180,10 +181,10 @@ h3 {
 
 .cart-button {
     box-shadow: inset 0px -3px 7px 0px #29bbff;
-    background: linear-gradient(to bottom, var(--light-blue-color) 5%, var(--blue-color) 100%);
-    background-color: var(--light-blue-color);
+    background: linear-gradient(to bottom, var(--light-blue) 5%, var(--blue) 100%);
+    background-color: var(--light-blue);
     border-radius: 15px;
-    border: 1px solid #0b0e07;
+    border: 1px solid var(--semi-transparent-black);
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
@@ -193,8 +194,8 @@ h3 {
 }
 
 .cart-button:hover {
-    background: linear-gradient(to bottom, var(--blue-color) 5%, var(--light-blue-color) 100%);
-    background-color: var(--blue-color);
+    background: linear-gradient(to bottom, var(--blue) 5%, var(--light-blue) 100%);
+    background-color: var(--blue);
 }
 
 .cart-button:active {
@@ -211,7 +212,7 @@ h3 {
     align-items: center;
     padding: 20px;
     margin: 0 13%;
-    background-color: var(--green-color);
+    background-color: var(--green);
     border-radius: 20px;
 }
 
@@ -255,7 +256,7 @@ h3 {
     align-items: center;
     text-align: center;
     margin: 0 13%;
-    background-color: var(--green-color);
+    background-color: var(--green);
     border-radius: 20px;
 }
 
@@ -276,10 +277,9 @@ h3 {
 footer {
     margin-top: auto;
     width: 100%;
-    background-color: #f1f1f1;
     text-align: center;
     padding: 20px;
-    background-color: var(--yellow-color);
+    background-color: var(--yellow);
 }
 
 /* Media Query */
