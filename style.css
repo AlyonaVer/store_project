@@ -160,7 +160,12 @@ h3 {
     top: 1px;
 }
 
-
+.cat-image,
+.dog-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Footer */
@@ -172,10 +177,10 @@ footer {
     padding: 20px;
     background-color: rgb(100%, 86%, 25%);
 }
-.cat-image, .dog-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.cat-image img, .dog-image img {
+    max-width: 100%;
+    height: auto;
 }
 
 .cart-button-container {
