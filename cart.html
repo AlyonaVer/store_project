@@ -28,7 +28,7 @@
           </a>
         </div>
 
-        <a class="cart" href="./cart.html">
+        <a href="./cart.html">
           <img
             src="./images/shopping_cart.png"
             alt="shopping cart"
@@ -50,92 +50,8 @@
       <h1>Your Cart</h1>
 
 <section class="cart-section">
-  <div class="image-container">
-      <img class="cart-img" src="images/cat_tree.webp" alt="Cat scratching tree">
-  </div>
-  <div class="cart-container">
-      <div class="cart">
-          <div class="cart-left">
-            <h3>Cat Tree</h3>
-          </div>
-          <div class="cart-right">
-            <button class="cart-button">
-              <img
-                  src="./images/bin.png" 
-                  alt="logo"
-                  width="20"
-                  height="20">
-            </button>
-          </div>
-      </div>
-      <div class="cart">
-          <div class="cart-left">
-            <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" value="1">
-          </div>
-          <div class="content-right">
-            <p>$100.00</p>
-          </div>
-      </div>
-  </div>
-  
-</section>
-<section class="cart-section">
-  <div class="image-container">
-      <img class="cart-img" src="images/cat_food.webp" alt="Ziwi Peak air-dried cat food">
-  </div>
-  <div class="cart-container">
-      <div class="cart">
-          <div class="cart-left">
-            <h3>Cat Food</h3>
-          </div>
-          <div class="cart-right">
-            <button class="cart-button">
-              <img
-                  src="./images/bin.png" 
-                  alt="logo"
-                  width="20"
-                  height="20">
-            </button>
-          </div>
-      </div>
-      <div class="cart">
-          <div class="cart-left">
-            <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" value="2">
-          </div>
-          <div class="content-right">
-            <p>$1.50</p>
-          </div>
-      </div>
-  </div>
-  
-</section><section class="cart-section">
-  <div class="image-container">
-      <img class="cart-img" src="images/dog_lead.webp" alt="Dog lead">
-  </div>
-  <div class="cart-container">
-      <div class="cart">
-          <div class="cart-left">
-            <h3>Dog Lead</h3>
-          </div>
-          <div class="cart-right">
-            <button class="cart-button">
-              <img
-                  src="./images/bin.png" 
-                  alt="logo"
-                  width="20"
-                  height="20">
-            </button>
-          </div>
-      </div>
-      <div class="cart">
-          <div class="cart-left">
-            <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" value="2">
-          </div>
-          <div class="content-right">
-            <p>$10.00</p>
-          </div>
-      </div>
-  </div>
+ 
+    <!-- DYNAMIC RENDER FROM JAVASCRIPT -->
   
 </section>
 
@@ -144,7 +60,7 @@
   <div class="cart-cost">
     <div class="cost-paragraphs">
       <p>Cart Price</p>
-      <p>$223.00</p>
+      <p class="total-cart-price"></p>
     </div>
     <button class="product-button">Checkout</button>
   </div>
@@ -156,5 +72,6 @@
       <p>© 2023 Whiskers & Wag</p>
     </footer>
     
+    <script src="./script.js"></script>
   </body>
 </html>

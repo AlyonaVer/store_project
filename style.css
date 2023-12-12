@@ -24,7 +24,8 @@ header {
     background-color: var(--yellow);
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
     font-size: 40px;
     letter-spacing: 2px;
@@ -78,10 +79,10 @@ h3 {
 
 /* Main */
 /* Banner */
-.banner  {
-    background-image:url(./images/banner.jpg);
+.banner {
+    background-image: url(./images/banner.jpg);
     background-size: 100%;
-    height:15vh;
+    height: 15vh;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -91,7 +92,7 @@ h3 {
 }
 
 .banner h1 {
-    font-family: 'Agbalumo', 'Paytone One',  Arial, sans-serif;
+    font-family: 'Agbalumo', 'Paytone One', Arial, sans-serif;
     text-transform: uppercase;
     text-shadow: 3px 3px 3px white;
 }
@@ -125,7 +126,8 @@ h3 {
     border-radius: 20px;
 }
 
-.product-row, .navbar-row {
+.product-row,
+.navbar-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -235,10 +237,25 @@ h3 {
 }
 
 .cart {
+    margin-bottom: 50px;
+}
+
+.cart-section {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+.cart-item {
+    margin: 20px auto;
+}
+
+.cart-image {
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .cart-left,
@@ -288,7 +305,8 @@ footer {
         padding: 3% 6%;
     }
 
-    .product-container, h2 {
+    .product-container,
+    h2 {
         margin: 2% 1%;
     }
 
@@ -304,7 +322,8 @@ footer {
         height: auto;
     }
 
-    .banner h1, h2 {
+    .banner h1,
+    h2 {
         font-size: larger;
     }
 
@@ -323,5 +342,5 @@ footer {
     .cart-img {
         max-height: 100px;
         max-width: 100px;
-    }    
+    }
 }
